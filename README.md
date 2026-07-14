@@ -54,4 +54,3 @@ Die Authentifizierung erfolgt über JWT, das als HttpOnly-Cookie vom Backend ges
 ## Hinweis
 
 Dieses Projekt ist ausschliesslich für Schüler der Developer Akademie gedacht und nicht zur freien Nutzung oder Weitergabe freigegeben.
-# Quizly_Frontend
