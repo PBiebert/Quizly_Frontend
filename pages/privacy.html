@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizly - Datenschutz</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../shared/css/variables.css" />
+    <link rel="stylesheet" href="../shared/css/standart.css" />
+    <link rel="stylesheet" href="../shared/css/fonts.css" />
+    <link rel="stylesheet" href="../shared/css/policy.css" />
+    <link
+      rel="icon"
+      href="../assets/icons/robot_default.png"
+      type="image/x-icon"
+    />
+    <script src="../shared/js/header.js"></script>
+    <script src="../shared/js/template.js"></script>
+    <script src="../shared/js/helper.js"></script>
+  </head>
+  <body onload="initHeader()" class="pos_rel">
+    <section>
+      <div class="background-wave">
+        <img src="/assets/icons/wave.png" alt="a background wave image" />
+      </div>
+    </section>
+    <header>
+      <div id="header" class="z_5"></div>
+    </header>
+
+    <main class="main-privacy">
+      <div class="p48">
+        <h1>Datenschutz</h1>
+
+        <h2>Einleitung</h2>
+        <p>
+          Diese Datenschutzerklärung erklärt, wie personenbezogene Daten verarbeitet werden, wenn du die
+          Quizly-Plattform nutzt.
+        </p>
+
+        <h2>Datenerhebung</h2>
+        <p>Bei der Registrierung und Nutzung der Plattform können unter anderem folgende Daten erfasst werden:</p>
+        <ul>
+          <li>Name bzw. Benutzername</li>
+          <li>E-Mail-Adresse</li>
+          <li>Passwort (verschlüsselt bzw. gehasht gespeichert)</li>
+          <li>Von dir eingereichte YouTube-URLs sowie die daraus erzeugten Transkripte und Quizze</li>
+        </ul>
+        <p>Diese Daten werden benötigt, um Benutzerkonten zu erstellen, Anmeldungen zu ermöglichen und die Quiz-Generierung bereitzustellen.</p>
+
+        <h2>Verwendung der Daten</h2>
+        <p>Die erfassten Daten werden ausschließlich verwendet, um:</p>
+        <ul>
+          <li>Benutzerkonten zu erstellen und zu verwalten</li>
+          <li>Login und Authentifizierung zu ermöglichen</li>
+          <li>Aus eingereichten YouTube-Videos automatisiert Quizze zu erzeugen</li>
+          <li>Erstellte Quizze in deiner persönlichen Bibliothek anzuzeigen und zu verwalten</li>
+        </ul>
+        <p>Eine Weitergabe an Dritte oder Nutzung zu Werbezwecken findet nicht statt.</p>
+
+        <h2>Verarbeitung durch externe Dienste</h2>
+        <p>
+          Zur Erstellung eines Quiz wird die Tonspur des angegebenen YouTube-Videos heruntergeladen,
+          per Spracherkennung in Text umgewandelt und anschließend zur automatisierten Fragengenerierung
+          an die Google-Gemini-API übermittelt. Dabei können Ausschnitte des Transkripts an einen
+          externen Dienstleister außerhalb dieser Plattform übertragen werden. Es werden keine
+          weiteren personenbezogenen Daten (z. B. Name oder E-Mail-Adresse) mitgesendet.
+        </p>
+
+        <h2>Datenspeicherung</h2>
+        <p>
+          Die Daten werden in einer Datenbank gespeichert, die vom Betreiber der Anwendung verwaltet wird.
+          Die Plattform dient ausschließlich der Veranschaulichung und nicht zu kommerziellen Zwecken.
+          Es kann daher vorkommen, dass Daten zu Test- oder Demonstrationszwecken jederzeit ohne Vorankündigung gelöscht werden.
+        </p>
+
+        <h2>Deine Rechte</h2>
+        <p>Nach der DSGVO hast du unter anderem folgende Rechte:</p>
+        <ul>
+          <li>Auskunft über deine gespeicherten Daten</li>
+          <li>Berichtigung unrichtiger Daten</li>
+          <li>Löschung deiner Daten</li>
+          <li>Einschränkung der Verarbeitung</li>
+          <li>Datenübertragbarkeit</li>
+          <li>Widerspruch gegen die Verarbeitung</li>
+        </ul>
+
+        <h2>Kontakt</h2>
+        <p>
+          Wenn du Fragen zum Datenschutz hast oder deine Rechte wahrnehmen möchtest, schreibe bitte an:
+        </p>
+        <p>
+          E-Mail: <a class="link" href="mailto:contact@philippbiebert.de">contact@philippbiebert.de</a>
+        </p>
+
+        <p class="font_sec_color">Datum: 14. Juli 2026</p>
+      </div>
+    </main>
+
+    <footer class="footer z-6 pos_abs">
+      <a href="./legalnotice.html" class="cu_po">Impressum</a>
+      <a href="./privacy.html" class="cu_po">Datenschutz</a>
+    </footer>
+  </body>
+</html>
